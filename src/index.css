@@ -36,10 +36,11 @@ All colors MUST be HSL.
     --accent: 210 10% 25%;
     --accent-foreground: 30 8% 97%;
 
-    /* Wood accent colors */
-    --wood-light: 35 45% 75%;
-    --wood-medium: 30 35% 55%;
-    --wood-dark: 25 25% 35%;
+    /* Wood accent colors - adjusted to match reference */
+    --wood-light: 45 55% 80%;
+    --wood-medium: 40 45% 65%;
+    --wood-dark: 35 35% 45%;
+    --gold-accent: 45 65% 70%;
 
     /* Success/trust color */
     --success: 120 40% 45%;

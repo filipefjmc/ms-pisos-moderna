@@ -52,6 +52,7 @@ export default {
           medium: "hsl(var(--wood-medium))",
           dark: "hsl(var(--wood-dark))",
         },
+        gold: "hsl(var(--gold-accent))",
         success: {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",

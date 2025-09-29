@@ -44,7 +44,7 @@ Tipo de projeto: ${formData.projectType}`;
   };
 
   return (
-    <section className="py-20 bg-background">
+    <section id="faq" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <Card className="shadow-warm">
