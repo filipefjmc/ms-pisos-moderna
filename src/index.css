@@ -2,39 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* MS Pisos Design System - Professional flooring company
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Background colors */
+    --background: 30 8% 97%;
+    --foreground: 25 15% 15%;
 
+    /* Card colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 25 15% 15%;
 
+    /* Popover colors */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Rich wood brown */
+    --primary: 25 35% 25%;
+    --primary-foreground: 30 8% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm beige */
+    --secondary: 35 25% 88%;
+    --secondary-foreground: 25 35% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted colors */
+    --muted: 35 15% 92%;
+    --muted-foreground: 25 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Deep graphite */
+    --accent: 210 10% 25%;
+    --accent-foreground: 30 8% 97%;
 
+    /* Wood accent colors */
+    --wood-light: 35 45% 75%;
+    --wood-medium: 30 35% 55%;
+    --wood-dark: 25 25% 35%;
+
+    /* Success/trust color */
+    --success: 120 40% 45%;
+    --success-foreground: 0 0% 100%;
+
+    /* Destructive colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Border and input */
+    --border: 35 15% 85%;
+    --input: 35 15% 90%;
+    --ring: 25 35% 25%;
 
     --radius: 0.5rem;
 
@@ -100,6 +118,37 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Custom gradients and animations */
+@layer utilities {
+  .gradient-wood {
+    background: linear-gradient(135deg, hsl(var(--wood-light)), hsl(var(--wood-medium)));
+  }
+  
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--accent) / 0.8));
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--wood-dark)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .shadow-warm {
+    box-shadow: 0 10px 30px -5px hsl(var(--primary) / 0.15);
+  }
+  
+  .hover-lift {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px -5px hsl(var(--primary) / 0.2);
   }
 }
