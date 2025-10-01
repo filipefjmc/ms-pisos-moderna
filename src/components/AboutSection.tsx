@@ -42,7 +42,7 @@ const AboutSection = () => {
             Sobre a MS Pisos
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Somos especializados na instalação de pisos flutuantes, vinílicos e laminados 
+            Somos especializados na instalação de pisos vinílicos, laminados e carpetes 
             para residências e empresas, oferecendo mão de obra qualificada, garantia e 
             materiais de alta qualidade.
           </p>

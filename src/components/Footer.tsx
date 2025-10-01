@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">MS Pisos</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Especialistas em pisos flutuantes, vinílicos e laminados. 
+              Especialistas em pisos vinílicos, laminados e carpetes. 
               Transformando ambientes com qualidade e confiança.
             </p>
           </div>
