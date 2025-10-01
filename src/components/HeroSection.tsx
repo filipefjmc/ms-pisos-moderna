@@ -22,7 +22,7 @@ const HeroSection = () => {
           
           <div className="text-lg md:text-xl mb-4 text-white/90 max-w-3xl mx-auto leading-relaxed">
             <p className="mb-2">
-              Especialistas em instalação de pisos flutuantes, vinílicos e laminados.
+              Especialistas em instalação de pisos vinílicos, laminados e carpetes.
             </p>
             <p>
               Qualidade profissional que você pode confiar.
