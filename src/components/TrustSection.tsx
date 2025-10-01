@@ -56,8 +56,9 @@ const TrustSection = () => {
           <div className="relative rounded-lg overflow-hidden shadow-warm hover-lift">
             <img 
               src={officeImage} 
-              alt="Piso comercial de alta qualidade"
+              alt="Instalação de piso vinílico em escritório comercial - MS Pisos Brasília DF"
               className="w-full h-64 object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
               <div className="p-6 text-white">
@@ -70,8 +71,9 @@ const TrustSection = () => {
           <div className="relative rounded-lg overflow-hidden shadow-warm hover-lift">
             <img 
               src={residentialImage} 
-              alt="Piso residencial elegante"
+              alt="Piso laminado de madeira instalado em sala residencial - MS Pisos Brasília"
               className="w-full h-64 object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
               <div className="p-6 text-white">

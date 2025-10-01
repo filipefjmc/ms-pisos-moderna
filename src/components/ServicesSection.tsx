@@ -52,10 +52,11 @@ const ServicesSection = () => {
         {/* Título Principal */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Nossos Serviços
+            Nossos Serviços de Instalação de Pisos
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Oferecemos soluções completas em pisos para transformar seu ambiente com qualidade e elegância
+            Oferecemos soluções completas em pisos para residências e empresas em Brasília. 
+            Transforme seu ambiente com qualidade, garantia e profissionalismo.
           </p>
         </div>
 

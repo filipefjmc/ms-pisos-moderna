@@ -7,6 +7,8 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
+        role="img"
+        aria-label="Profissional instalando piso vinílico de alta qualidade em residência em Brasília"
       >
         <div className="absolute inset-0 bg-black/40"></div>
       </div>

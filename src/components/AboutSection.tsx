@@ -39,12 +39,12 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Sobre a MS Pisos
+            Sobre a MS Pisos - Instalação de Pisos em Brasília
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Somos especializados na instalação de pisos vinílicos, laminados e carpetes 
-            para residências e empresas, oferecendo mão de obra qualificada, garantia e 
-            materiais de alta qualidade.
+            Empresa especializada na instalação profissional de pisos vinílicos, laminados e carpetes 
+            em Brasília e região. Atendemos residências, apartamentos, lojas e empresas em todo o DF 
+            com mão de obra qualificada, garantia e materiais premium de alta durabilidade.
           </p>
         </div>
 
