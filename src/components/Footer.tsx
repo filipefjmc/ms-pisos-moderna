@@ -19,7 +19,7 @@ const Footer = () => {
       name: "WhatsApp",
       icon: MessageCircle,
       url: "https://api.whatsapp.com/send/?phone=556192586209&text=Ol%C3%A1%21+Gostaria+de+solicitar+um+or%C3%A7amento+para+instala%C3%A7%C3%A3o+de+pisos.&type=phone_number&app_absent=0",
-      handle: "Contato Direto"
+      handle: "WhatsApp"
     }
   ];
 
