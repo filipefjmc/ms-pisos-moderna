@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src={logo} alt="MS Pisos Logo" className="w-10 h-10 object-contain" />
+            <img src={logo} alt="MS Pisos Flutuantes Logo" className="w-12 h-12 object-contain" />
             <div className="text-xl font-bold text-foreground">MS PISOS</div>
           </div>
           
